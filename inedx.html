@@ -1227,24 +1227,18 @@
    <div class="tabs-scroll">
 
 <button class="tab active" data-cat="all">All Items</button>
+<button class="tab" data-cat="स्पेशल थाळी / Special Thali">Special Thali</button>
+<button class="tab" data-cat="व्हेज / Veg">Veg Special</button>
+<button class="tab" data-cat="बिर्याणी / Biryani's">Biryani</button>
+<button class="tab" data-cat="पुलाव / Pulav's">Pulao</button>
+<button class="tab" data-cat="नॉन-व्हेज (चिकन) / Non-Veg (Chicken)">Chicken Special</button>
+<button class="tab" data-cat="नॉन-व्हेज (अंडी) / Non-Veg (Egg)">Egg Special</button>
+<button class="tab" data-cat="नॉन-व्हेज / Non-Veg">Seafood & Others</button>
+<button class="tab" data-cat="राईस स्पेशल / Rice Special">Rice Special</button>
+<button class="tab" data-cat="चपाती स्पेशल / Chapati Special">Chapati/Bhakri</button>
+<button class="tab" data-cat="चायनीज / Chinese">Chinese</button>
 <button class="tab" data-cat="स्टार्टर्स / Starters (Veg)">Veg Starters</button>
-  <button class="tab" data-cat="व्हेज / Veg">Veg Special</button>
-  <button class="tab" data-cat="चायनीज / Chinese">Chinese</button>
-  <button class="tab" data-cat="स्पेशल थाळी / Special Thali">Special Thali</button>
-  
-  <button class="tab" data-cat="नॉन-व्हेज (अंडी) / Non-Veg (Egg)">Egg Special</button>
-  <button class="tab" data-cat="नॉन-व्हेज (चिकन) / Non-Veg (Chicken)">Chicken Special</button>
-  <button class="tab" data-cat="नॉन-व्हेज बिर्याणी / Non-Veg Biryani">Non-Veg Rice</button>
-  
-  <!-- <button class="tab" data-cat="राईस स्पेशल / Rice Special">Rice Special</button> -->
-  <button class="tab" data-cat="बिर्याणी / Biryani's">Biryani Special</button>
-  <button class="tab" data-cat="पुलाव / Pulav's">Pulav Special</button>
-  
-  <button class="tab" data-cat="चपाती स्पेशल / Chapati Special">Chapati/Bhakri</button>
-
-   <button class="tab" data-cat="ड्रिंक्स / Drinks & Beverages">Beverages</button>
-<button class="tab" data-cat="टिफिन सर्व्हिस / Tiffin Service">Tiffin Service</button>    
-                  </div>  
+   </div>  
                 </div>
             </div>
 
@@ -1406,6 +1400,29 @@
         const data = [
    
 
+  { "id": 94, "cat": "बिर्याणी / Biryani's", "name": "चिकन बिर्याणी / CHICKEN BIRYANI (FULL)", "price": "150 RS", "desc": "Aromatic chicken biryani (Full)", "tags": ["Non-Veg", "Chicken", "Biryani", "Wed-Fri-Sat Only"], "img": "img/chicken_biryani_full.jpeg" },
+  { "id": 95, "cat": "बिर्याणी / Biryani's", "name": "चिकन बिर्याणी / CHICKEN BIRYANI (HALF)", "price": "100 RS", "desc": "Aromatic chicken biryani (Half)", "tags": ["Non-Veg", "Chicken", "Biryani", "Wed-Fri-Sat Only"], "img": "img/chicken_biryani_half.jpeg" },
+  { "id": 96, "cat": "नॉन-व्हेज (चिकन) / Non-Veg (Chicken)", "name": "चिकन मसाला / CHICKEN MASALA (FULL)", "price": "180 RS", "desc": "Spicy chicken masala gravy (Full)", "tags": ["Non-Veg", "Chicken", "Curry", "Wed-Fri-Sat Only"], "img": "img/chicken_masala_full.jpeg" },
+  { "id": 97, "cat": "नॉन-व्हेज (चिकन) / Non-Veg (Chicken)", "name": "चिकन मसाला / CHICKEN MASALA (HALF)", "price": "100 RS", "desc": "Spicy chicken masala gravy (Half)", "tags": ["Non-Veg", "Chicken", "Curry", "Wed-Fri-Sat Only"], "img": "img/chicken_masala_half.jpeg" },
+  { "id": 98, "cat": "स्पेशल थाळी / Special Thali", "name": "चिकन थाळी / CHICKEN THALI", "price": "150 RS", "desc": "Standard chicken thali with rassa and bhakri/chapati", "tags": ["Non-Veg", "Chicken", "Thali", "Wed-Fri-Sat Only"], "img": "img/chicken_thali_std.jpeg" },
+  { "id": 99, "cat": "स्पेशल थाळी / Special Thali", "name": "चिकन कलेजी थाळी / CHICKEN KALEJI THALI", "price": "160 RS", "desc": "Special thali featuring chicken liver curry", "tags": ["Non-Veg", "Chicken", "Thali", "Wed-Fri-Sat Only"], "img": "img/chicken_kaleji_thali.jpeg" },
+  { "id": 100, "cat": "नॉन-व्हेज (चिकन) / Non-Veg (Chicken)", "name": "चिकन कलेजी / CHICKEN KALEJI", "price": "100 RS", "desc": "Spiced chicken liver fry/gravy", "tags": ["Non-Veg", "Chicken", "Wed-Fri-Sat Only"], "img": "img/chicken_kaleji.jpeg" },
+  { "id": 101, "cat": "स्पेशल थाळी / Special Thali", "name": "अंडा थाळी / EGG THALI", "price": "100 RS", "desc": "Egg curry served with rice and bhakri/chapati", "tags": ["Non-Veg", "Egg", "Thali", "Wed-Fri-Sat Only"], "img": "img/egg_thali_std.jpeg" },
+  { "id": 102, "cat": "नॉन-व्हेज (अंडी) / Non-Veg (Egg)", "name": "अंडा मसाला (1 PC) / EGG MASALA (1 PC)", "price": "35 RS", "desc": "Single egg in spicy masala gravy", "tags": ["Non-Veg", "Egg", "Wed-Fri-Sat Only"], "img": "img/egg_masala_1pc.jpeg" },
+  { "id": 103, "cat": "नॉन-व्हेज (अंडी) / Non-Veg (Egg)", "name": "अंडा मसाला (2 PC) / EGG MASALA (2 PC)", "price": "60 RS", "desc": "Double egg in spicy masala gravy", "tags": ["Non-Veg", "Egg", "Wed-Fri-Sat Only"], "img": "img/egg_masala_2pc.jpeg" },
+  { "id": 104, "cat": "स्पेशल थाळी / Special Thali", "name": "व्हेज पुलाव थाळी / VEG PULAO THALI", "price": "90 RS", "desc": "Veg pulao served with rassa and accompaniments", "tags": ["Veg", "Thali"], "img": "img/veg_pulao_thali.jpeg" },
+  { "id": 105, "cat": "स्पेशल थाळी / Special Thali", "name": "व्हेज थाळी / VEG THALI", "price": "70 RS", "desc": "Daily veg meal with bhaji, dal, and chapati", "tags": ["Veg", "Thali"], "img": "img/veg_thali_daily.jpeg" },
+  { "id": 106, "cat": "व्हेज / Veg", "name": "दाल / DAL", "price": "30 RS", "desc": "Plain tempered dal", "tags": ["Veg", "Dal"], "img": "img/dal_single.jpeg" },
+  { "id": 107, "cat": "व्हेज / Veg", "name": "भाजी / BHAJI", "price": "30 RS", "desc": "Daily vegetable preparation", "tags": ["Veg"], "img": "img/bhaji_single.jpeg" },
+  { "id": 108, "cat": "व्हेज / Veg", "name": "स्पेशल भाजी / SPECIAL BHAJI", "price": "50 RS", "desc": "Premium vegetable preparation of the day", "tags": ["Veg", "Special"], "img": "img/special_bhaji.jpeg" },
+  { "id": 109, "cat": "राईस स्पेशल / Rice Special", "name": "राईस / RICE", "price": "30 RS", "desc": "Steamed rice portion", "tags": ["Veg", "Rice"], "img": "img/rice_portion.jpeg" },
+  { "id": 110, "cat": "चपाती स्पेशल / Chapati Special", "name": "चपाती / CHAPATI", "price": "7 RS", "desc": "Single soft wheat flatbread", "tags": ["Veg", "Roti"], "img": "img/chapati_7rs.jpeg" },
+  { "id": 111, "cat": "नॉन-व्हेज / Non-Veg", "name": "फिश करी / FISH CURRY", "price": "", "desc": "Spicy traditional fish curry", "tags": ["Non-Veg", "Fish", "Wed-Fri-Sat Only"], "img": "img/fish_curry.jpeg" },
+  { "id": 112, "cat": "नॉन-व्हेज / Non-Veg", "name": "फिश फ्राय / FISH FRY", "price": "", "desc": "Crispy fried fish with spices", "tags": ["Non-Veg", "Fish", "Wed-Fri-Sat Only"], "img": "img/fish_fry.jpeg" },
+  { "id": 113, "cat": "नॉन-व्हेज / Non-Veg", "name": "सुका जवळा / SUKHA JAWLA", "price": "60 RS", "desc": "Dry spiced small shrimp (Jawla)", "tags": ["Non-Veg", "Seafood", "Wed-Fri-Sat Only"], "img": "img/sukha_jawla.jpeg" },
+  { "id": 114, "cat": "स्पेशल थाळी / Special Thali", "name": "सुका जवळा थाळी / SUKHA JAWLA THALI", "price": "", "desc": "Complete thali with dry jawla and curry", "tags": ["Non-Veg", "Seafood", "Thali", "Wed-Fri-Sat Only"], "img": "img/jawla_thali.jpeg" },
+  { "id": 115, "cat": "पुलाव / Pulav's", "name": "व्हेज पुलाव / VEG PULAV (FULL)", "price": "80 RS", "desc": "Aromatic vegetable pulao (Full)", "tags": ["Veg", "Pulav"], "img": "img/veg_pulav_full.jpeg" },
+  { "id": 116, "cat": "पुलाव / Pulav's", "name": "व्हेज पुलाव / VEG PULAV (HALF)", "price": "60 RS", "desc": "Aromatic vegetable pulao (Half)", "tags": ["Veg", "Pulav"], "img": "img/veg_pulav_half.jpeg" },
 
 
 
